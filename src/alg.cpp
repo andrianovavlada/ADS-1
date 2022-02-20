@@ -1,8 +1,8 @@
 // Copyright 2022 NNTU-CS
 #define _USE_MATH_DEFINES
 #include <cstdint>
-//#include "alg.h"
-#include <сmath>
+#include "alg.h"
+#include <math.h>
 
 bool checkPrime(uint64_t value) {
 // вставьте код функции
@@ -41,7 +41,7 @@ uint64_t nextPrime(uint64_t value) {
 
 uint64_t sumPrime(uint64_t hbound) {
 // вставьте код функции
-   uint64_t sum = 0;
+  uint64_t sum = 0;
     if (hbound > 2) {
         for (int i = 2; i < hbound; i++)
         if (checkPrime(i)) {
