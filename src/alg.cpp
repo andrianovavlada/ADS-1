@@ -2,7 +2,7 @@
 #define _USE_MATH_DEFINES
 #include <cstdint>
 #include "alg.h"
-#include <math.h>
+#include <cmath>
 
 bool checkPrime(uint64_t value) {
 // вставьте код функции
